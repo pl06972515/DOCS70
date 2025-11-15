@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="第 1 页" id="py9uA5VGuj996ZO7mRz9">
+    <mxGraphModel dx="1207" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-1" value="[ 公共类库 ]&amp;nbsp;PM2.Common" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#2D7600;strokeWidth=1;fillColor=#60a917;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-2" value="[ 领域层 ]&amp;nbsp;PM2.Domain" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#d79b00;strokeWidth=1;fillColor=#ffcd28;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;strokeColor=#FF3333;" edge="1" parent="1" source="wS1NKFqcXDu8UGQojNzV-3" target="wS1NKFqcXDu8UGQojNzV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-3" value="[ 用例层 ]&amp;nbsp;PM2.UseCases" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-4" value="[ 基础设施层 ]&amp;nbsp;PM2.Infrastructure" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#006EAF;strokeWidth=1;fillColor=#1ba1e2;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="738" y="379" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-5" value="[ 接口层 ]&amp;nbsp;PM2.WebApi" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#82b366;strokeWidth=1;fillColor=#66FF66;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="400" y="298" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 2;strokeColor=#FF3333;" edge="1" parent="1" source="wS1NKFqcXDu8UGQojNzV-2" target="wS1NKFqcXDu8UGQojNzV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 2;strokeColor=#FF3333;" edge="1" parent="1" source="wS1NKFqcXDu8UGQojNzV-5" target="wS1NKFqcXDu8UGQojNzV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 2;strokeColor=#FF3333;" edge="1" parent="1" source="wS1NKFqcXDu8UGQojNzV-4" target="wS1NKFqcXDu8UGQojNzV-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.488;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 2;strokeColor=#FF3333;" edge="1" parent="1" source="wS1NKFqcXDu8UGQojNzV-5" target="wS1NKFqcXDu8UGQojNzV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wS1NKFqcXDu8UGQojNzV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 2;strokeColor=#FF3333;" edge="1" parent="1" source="wS1NKFqcXDu8UGQojNzV-4" target="wS1NKFqcXDu8UGQojNzV-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="866" y="482" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
